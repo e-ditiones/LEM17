@@ -34,7 +34,7 @@ We provide:
 To use the model, you need to:
 1. Install _Pie-extended_ `pip install pie-extended`
 2. Download de `fr` model: `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended download fr`
-3. Replace the `lemma.tar` file in `site-packages/pie-extended/downloads/fr`
+3. Replace the `lemma.tar` file in `env/lib/Python3.YOUR_VERSION/site-packages/pie-extended/downloads/fr`
 
 ## Licences
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Our work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
