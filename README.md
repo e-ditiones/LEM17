@@ -11,8 +11,10 @@ To use the model, you need to:
 3. Replace the `lemma.tar` file in `site-packages/pie-extended/downloads/fr`
 
 ## Licence
-Except _Presto_ Data, which is CC-BY-NC-SA.
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
+
+Except _Presto_ Data, which is CC-BY-NC-SA.
+
 
 ## Contribute
 If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unine.ch.
