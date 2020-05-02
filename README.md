@@ -9,7 +9,7 @@ We provide:
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
-2. The [Data](https://github.com/e-ditiones/LEM17/tree/master/Data) folder contains:
+2. [Training data](https://github.com/e-ditiones/LEM17/tree/master/Data):
   * _CornMol_ is a gold corpus to be published
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
   * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project, with lemmas heavily corrected.
