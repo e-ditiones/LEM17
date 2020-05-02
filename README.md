@@ -5,15 +5,15 @@ Annotated corpora of modern French (16-18th c.) with _Pie_ model
 ## Data
 
 We provide:
-1. Two authority lists, both deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
+1. [Two authority lists](https://github.com/e-ditiones/LEM17/tree/master/Authority_list), both deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
-2. Data
+2. The [Data](https://github.com/e-ditiones/LEM17/tree/master/Data) folder contains:
   * _CornMol_ is a gold corpus to be published
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
   * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project, with lemmas heavily corrected.
-3. Models have models produced with our data.
+3. The [Models](https://github.com/e-ditiones/LEM17/tree/master/Models) folder contains all the models produced with our data.
 
 ```
 |-Authority_list
@@ -45,7 +45,7 @@ To use the model, you need to:
 If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unine.ch.
 
 ## Cite this repository
-Simon Gabay, Jean-Baptiste Camps, _LEM17: data and models for modern French (16-18th c.)_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/e-ditiones/PARALLEL17](https://github.com/e-ditiones/LLEM17).
+Simon Gabay, Jean-Baptiste Camps, _LEM17: data and models for modern French (16-18th c.)_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/e-ditiones/LEM17](https://github.com/e-ditiones/LEM17).
 
 Please keep me posted if you use this data! simon.gabay[at]unine.ch
 
