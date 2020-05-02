@@ -1,6 +1,6 @@
 # LEM17
 
-Annotated corpora of modern French (16-18th c.) with _Pie_ model
+Linguistically annotated corpora of modern French (16-18th c.) with _Pie_ model
 
 ## Data
 
