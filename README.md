@@ -5,14 +5,14 @@ Annotated corpora of modern French (16-18th c.) with _Pie_ model
 ## Data
 
 We provide:
-1. 2 authority lists, both deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
+1. Two authority lists, both deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
 2. Data
   * _CornMol_ is a gold corpus to be published
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
-  * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project], with lemmas heavily corrected.
+  * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project, with lemmas heavily corrected.
 3. Models have models produced with our data.
 
 ```
@@ -39,7 +39,7 @@ To use the model, you need to:
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Our work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Except _Presto_ and _LGeRM_ data are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />_Presto_ and _LGeRM_ data are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
 
 ## Contribute
 If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unine.ch.
