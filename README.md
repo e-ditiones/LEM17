@@ -45,7 +45,7 @@ To use the model, you need to:
 If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unine.ch.
 
 ## Cite this repository
-Simon Gabay, Jean-Baptiste Camps, _LEM17: data and models for modern French ()16-18th c.)_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/e-ditiones/PARALLEL17](https://github.com/e-ditiones/LLEM17).
+Simon Gabay, Jean-Baptiste Camps, _LEM17: data and models for modern French (16-18th c.)_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/e-ditiones/PARALLEL17](https://github.com/e-ditiones/LLEM17).
 
 Please keep me posted if you use this data! simon.gabay[at]unine.ch
 
