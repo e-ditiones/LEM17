@@ -39,7 +39,7 @@ We provide:
 To use the model, you need to:
 1. Install _Pie-extended_ `pip install pie-extended`
 2. Download de `fr` model: `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended download fr`
-3. Replace the `lemma.tar` file in `env/lib/Python3.YOUR_VERSION/site-packages/pie-extended/downloads/fr` of your virtualenv.
+3. Use the `lemma.tar` with `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended tag fr $FILE$`.
 
 ## Warnings
 
