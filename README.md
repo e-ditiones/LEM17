@@ -2,6 +2,8 @@
 
 Linguistically annotated corpora of modern French (16-18th c.) with _Pie_ models
 
+![100% center](images/Punishment_sisyph.jpg)
+
 ## Data
 
 We provide:
@@ -9,6 +11,7 @@ We provide:
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
+  * An additional list (`foreign`) contains foreign words
 2. [Training data](https://github.com/e-ditiones/LEM17/tree/master/Data):
   * _CornMol_ is a gold corpus to be published
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
@@ -21,6 +24,7 @@ We provide:
   |-authority
   |-propres_processed
   |-propres
+  |-foreign
 |-Data
   |-CornMol_gold
   |-presto_max
@@ -35,6 +39,11 @@ To use the model, you need to:
 1. Install _Pie-extended_ `pip install pie-extended`
 2. Download de `fr` model: `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended download fr`
 3. Replace the `lemma.tar` file in `env/lib/Python3.YOUR_VERSION/site-packages/pie-extended/downloads/fr` of your virtualenv.
+
+## Warnings
+
+The POS is provided but has _not_ been carefully proofread.
+
 
 ## Licences
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Our work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
