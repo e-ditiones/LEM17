@@ -4,7 +4,7 @@ Linguistically annotated corpora of modern French (16-18th c.) with _Pie_ models
 
 ![100% center](images/Punishment_sisyph.jpg)
 
-Sisyphe portant _CornMol_
+Sisyphe portant _CornMol_ (Titian, Prado Museum, Madrid, Spain, Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Punishment_sisyph.jpg)).
 
 ## Data
 
