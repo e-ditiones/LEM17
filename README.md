@@ -3,7 +3,8 @@
 Linguistically annotated corpora of modern French (16-18th c.) with _Pie_ models
 
 ![100% center](images/Punishment_sisyph.jpg)
-Sisyphe portant le _CornMol_
+
+Sisyphe portant _CornMol_
 
 ## Data
 
