@@ -1,0 +1,132 @@
+{
+  // * General
+  // model name to be used for saving
+  "modelname": "latest-fro",
+  // model path to be used for saving
+  "modelpath": "./",
+  // run test (no serialization)
+  "run_test": false,
+  // max length of sentences (longer sentence will be split)
+  "max_sent_len": 35,
+  // maximum number of sentences to process
+  "max_sents": 1000000,
+  // * Data
+  // path or unix-like expression to file(s)/dir with training data:
+  // e.g. "datasets/capitula_classic/train0.tsv""
+  "input_path": "output/train/CORPUS.tsv",
+  // path to test set (same format as input_path)
+  "test_path": "output/test/CORPUS.tsv",
+  // path to dev set (same format as input_path)
+  "dev_path": "output/dev/CORPUS.tsv",
+  // data to use as reference for breaking lines (e.g. "pos")
+  "breakline_ref": "POS",
+  // needed to decide for a sentence boundary (e.g. "$.")
+  "breakline_data": "INUTILE",
+  // maximum vocabulary size
+  "char_max_size": 500,
+  // maximum vocabulary size for word input
+  "word_max_size": 20000,
+  // min freq per item to be incorporated in the vocabulary (only used if *_max_size is 0)
+  "char_min_freq": 1,
+  "word_min_freq": 1,
+  // char-level encoding
+  "char_eos": true,
+  "char_bos": true,
+  // tab-format only:
+  "header": true,
+  // separator for csv-like files
+  "sep": "\t",
+  // task-related config
+  "tasks": [
+    // each task's name refers to the corresponding data field
+    // this behaviour can be changed in case the name differs from the data field
+    // by using a "target" key that refers to the target data field
+    // e.g. {"name": "lemma-char", "settings": {"target": "lemma"}}
+    // e.g. {"name": "lemma-word", "settings": {"target": "lemma"}}
+    {
+      "name": "lemma",
+      "target": true,
+      "context": "sentence",
+      "level": "char",
+      "decoder": "attentional",
+      "settings": {
+        "bos": true,
+        "eos": true,
+        "lower": true,
+        "target": "lemma"
+      },
+      "layer": -1
+    },
+    {"name": "POS"}
+  ],
+  "task_defaults": {
+    "level": "token",
+    "layer": -1,
+    "decoder": "linear",
+    "context": "sentence"
+  },
+  // general task schedule params (can be overwritten in the "settings" entry of each)
+  "patience": 1000000, // default to very large value
+  "factor": 1, // decrease the loss weight by this amount (0, 1)
+  "threshold": 0, // minimum decrease in loss to be considered an improvement
+  "min_weight": 0, // minimum value a task weight can be decreased to
+
+  // whether to include autoregressive loss
+  "include_lm": true,
+  // whether to share the output layer for both fwd and bwd lm
+  "lm_shared_softmax": false,
+  // lm settings in case it's included as an extra task
+  "lm_schedule": {
+    "patience": 100, "factor": 0.5, "weight": 0.2, "mode": "min"
+  },
+  "include_lm": true,
+  "lm_shared_softmax": true,
+  "lm_schedule": {
+    "patience": 2,
+    "factor": 0.5,
+    "weight": 0.2,
+    "mode": "min"
+  },
+  "batch_size": 128,
+  "patience": 10,
+  "factor": 0.5,
+  "dropout": 0.25,
+  "lr": 0.001,
+  "lr_factor": 0.5,
+  "lr_patience": 8, //early stopping
+  "epochs": 100,
+  "cell": "GRU",
+  "num_layers": 1,
+  "hidden_size": 150,
+  "wemb_dim": 100,
+  "cemb_dim": 300,
+  "cemb_type": "rnn",
+  "cemb_layers": 2,
+  "checks_per_epoch": 1,
+  "report_freq": 64,
+  "verbose": true,
+  "device": "cuda",
+  "run_test": false,
+  "max_sents": 1000000,
+  "char_max_size": 500,
+  "char_min_freq": 1,
+  "word_min_freq": 1,
+  "char_eos": true,
+  "char_bos": true,
+  "threshold": 0.0001,
+  "min_weight": 0,
+  "buffer_size": 10000,
+  "minimize_pad": false,
+  "word_dropout": 0.1,
+  "shuffle": true,
+  "optimizer": "Adam",
+  "clip_norm": 5,
+  "pretrain_embeddings": false,
+  "load_pretrained_embeddings": "",
+  "load_pretrained_encoder": "",
+  "freeze_embeddings": false,
+  "custom_cemb_cell": false,
+  "merge_type": "concat",
+  "scorer": "general",
+  "linear_layers": 1
+}
