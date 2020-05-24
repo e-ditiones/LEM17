@@ -9,16 +9,20 @@ Sisyphe portant _CornMol_ (Titian, Prado Museum, Madrid, Spain, Source: [Wikiped
 ## Data
 
 We provide:
-1. [Two authority lists](https://github.com/e-ditiones/LEM17/tree/master/Authority_list), both deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
+1. [Three authority lists](https://github.com/e-ditiones/LEM17/tree/master/Authority_list), two deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
+  * One list contains all the foreign words (`foreign`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
-  * An additional list (`foreign`) contains foreign words
 2. [Training data](https://github.com/e-ditiones/LEM17/tree/master/Data):
   * _CornMol_ is a gold corpus to be published
+  * _FranText_ is a corpus taken from the open data of [FranText](https://www.frantext.fr) and aligned on our lemmatisation standards.
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
   * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project, with lemmas heavily corrected.
-3. The [Models](https://github.com/e-ditiones/LEM17/tree/master/Models) folder contains all the models produced with our data.
+3. Out-of-domain testing data for 16zh, 17th, 18th, 19th and 20th c. French
+  * Data are separated: theatrical and non theatrical [for historical reasons](https://hal.archives-ouvertes.fr/halshs-02591388).
+  * The same data exist in two versions: normalised and original (19th and 20th remains the same, only 16th, 17th and 18th change).
+4. The [Models](https://github.com/e-ditiones/LEM17/tree/master/Models) folder contains all the models produced with our data.
 
 ```
 |-Authority_list
@@ -29,8 +33,14 @@ We provide:
   |-foreign
 |-Data
   |-CornMol_gold
+  |-FranText
   |-presto_max
   |-presto_gold
+|-Data_outOfDomain
+  |-theatre
+  |-theatre_orig
+  |-varia
+  |-varia_orig
 |-Models
   |-lemma.tar
 
