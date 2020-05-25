@@ -19,7 +19,7 @@ We provide:
   * _FranText_ is a corpus taken from the open data of [FranText](https://www.frantext.fr) and aligned on our lemmatisation standards.
   * _presto_gold_ is a gold corpus used by the [_Presto_ project](http://presto.ens-lyon.fr) tro train their TreeTagger model, converted to CATTEX and lightly corrected to match our authority lists.
   * _presto_max_ have all the modern (16th-18th c.) texts of the _Presto_ project, with lemmas heavily corrected.
-3. [Out-of-domain testing data](https://github.com/e-ditiones/LEM17/tree/master/Data_outOfDomain) for 16zh, 17th, 18th, 19th and 20th c. French
+3. [Out-of-domain testing data](https://github.com/e-ditiones/LEM17/tree/master/Data_outOfDomain) for 16th, 17th, 18th, 19th and 20th c. French
   * Data are separated: theatrical and non theatrical [for historical reasons](https://hal.archives-ouvertes.fr/halshs-02591388).
   * The same data exist in two versions: normalised and original (19th and 20th remains the same, only 16th, 17th and 18th change).
 4. The [Models](https://github.com/e-ditiones/LEM17/tree/master/Models) folder contains all the models produced with our data.
