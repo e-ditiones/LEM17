@@ -54,7 +54,7 @@ To use the model, you need to:
 
 ## Warnings
 
-The POS is provided but has _not_ been carefully proofread.
+The morphology is provided but has _not_ been carefully proofread.
 
 
 ## Licences
