@@ -1,0 +1,622 @@
+(env) ➜  pie git:(master) ✗ bash run_eval_pos.sh                                  [(2.6.2)]
+# THEATRE
+## THEATRE 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.42s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.893
+  precision: 0.8197
+  recall: 0.7705
+  support: 1252
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.28s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9272
+  precision: 0.8486
+  recall: 0.8715
+  support: 1319
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.27s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9449
+  precision: 0.8568
+  recall: 0.8431
+  support: 1344
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.41s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9337
+  precision: 0.7851
+  recall: 0.7743
+  support: 1387
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.42s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9342
+  precision: 0.7821
+  recall: 0.7477
+  support: 1399
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Varia
+# VARIA 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.36s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.8942
+  precision: 0.7488
+  recall: 0.6929
+  support: 1351
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.28s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.926
+  precision: 0.7838
+  recall: 0.768
+  support: 1310
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.51s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9549
+  precision: 0.7123
+  recall: 0.7259
+  support: 1441
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.37s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9209
+  precision: 0.7927
+  recall: 0.7901
+  support: 1353
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.33s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9359
+  precision: 0.6757
+  recall: 0.6948
+  support: 1341
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global
+# Global 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.79s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.8936
+  precision: 0.7872
+  recall: 0.73
+  support: 2603
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.55s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9266
+  precision: 0.8099
+  recall: 0.8062
+  support: 2629
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.70s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9501
+  precision: 0.7694
+  recall: 0.7635
+  support: 2785
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.62s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9274
+  precision: 0.7342
+  recall: 0.7269
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.66s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.935
+  precision: 0.6679
+  recall: 0.684
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total
+# Total théâtre orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:07,  7.74s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9272
+  precision: 0.8019
+  recall: 0.7886
+  support: 6701
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total varia orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:07,  7.91s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9267
+  precision: 0.6616
+  recall: 0.6709
+  support: 6796
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:17, 17.36s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9269
+  precision: 0.6574
+  recall: 0.6572
+  support: 13497
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# THEATRE
+## THEATRE 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.16s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9353
+  precision: 0.8661
+  recall: 0.8232
+  support: 1252
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.21s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9568
+  precision: 0.8843
+  recall: 0.8997
+  support: 1319
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.22s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9501
+  precision: 0.8603
+  recall: 0.8469
+  support: 1344
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.26s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9337
+  precision: 0.7851
+  recall: 0.7743
+  support: 1387
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+## THEATRE 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.31s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9342
+  precision: 0.7821
+  recall: 0.7477
+  support: 1399
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Varia
+# VARIA 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.30s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9275
+  precision: 0.809
+  recall: 0.7359
+  support: 1351
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.26s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.945
+  precision: 0.7754
+  recall: 0.7506
+  support: 1310
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.46s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9521
+  precision: 0.7112
+  recall: 0.7246
+  support: 1441
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.30s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9209
+  precision: 0.7927
+  recall: 0.7901
+  support: 1353
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# VARIA 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:01,  1.32s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9359
+  precision: 0.6757
+  recall: 0.6948
+  support: 1341
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global
+# Global 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.50s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9312
+  precision: 0.837
+  recall: 0.7813
+  support: 2603
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.52s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9509
+  precision: 0.8164
+  recall: 0.8217
+  support: 2629
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.72s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9512
+  precision: 0.7698
+  recall: 0.7656
+  support: 2785
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.59s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9274
+  precision: 0.7342
+  recall: 0.7269
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Global 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:02,  2.69s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.935
+  precision: 0.6679
+  recall: 0.684
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total
+# Total théâtre normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.85s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9419
+  precision: 0.821
+  recall: 0.8059
+  support: 6701
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total varia normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:16, 16.95s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9364
+  precision: 0.689
+  recall: 0.6817
+  support: 6796
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+# Total normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:19, 19.98s/it]
+
+::: Evaluation report for task: POS :::
+
+all:
+  accuracy: 0.9392
+  precision: 0.6684
+  recall: 0.6687
+  support: 13497
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+
+(env) ➜  pie git:(master) ✗

@@ -1,0 +1,803 @@
+➜  pie git:(master) ✗ source env/bin/activate                         [(2.6.2)]
+(env) ➜  pie git:(master) ✗ bash run_eval.sh                          [(2.6.2)]
+# THEATRE
+## THEATRE 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.87s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9393
+  precision: 0.7663
+  recall: 0.7581
+  support: 1252
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.1333
+  precision: 0.0833
+  recall: 0.0625
+  support: 15
+
+## THEATRE 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:07,  7.02s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9636
+  precision: 0.8576
+  recall: 0.8562
+  support: 1319
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3571
+  precision: 0.2222
+  recall: 0.2222
+  support: 14
+
+## THEATRE 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.40s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9695
+  precision: 0.8676
+  recall: 0.8664
+  support: 1344
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5
+  precision: 0.2667
+  recall: 0.2333
+  support: 14
+
+## THEATRE 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.60s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.982
+  precision: 0.9229
+  recall: 0.9182
+  support: 1387
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.6923
+  precision: 0.6364
+  recall: 0.5455
+  support: 13
+
+## THEATRE 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.99s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.975
+  precision: 0.9062
+  recall: 0.9043
+  support: 1399
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.6667
+  precision: 0.5294
+  recall: 0.5294
+  support: 15
+
+# Varia
+# VARIA 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.89s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9623
+  precision: 0.8441
+  recall: 0.8473
+  support: 1351
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.0
+  precision: 0.0
+  recall: 0.0
+  support: 10
+
+# VARIA 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.88s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9725
+  precision: 0.8753
+  recall: 0.8769
+  support: 1310
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5
+  precision: 0.3125
+  recall: 0.3125
+  support: 12
+
+# VARIA 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.36s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.982
+  precision: 0.9289
+  recall: 0.9285
+  support: 1441
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.0
+  precision: 0.0
+  recall: 0.0
+  support: 10
+
+# VARIA 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:08,  8.01s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9712
+  precision: 0.8857
+  recall: 0.8884
+  support: 1353
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3182
+  precision: 0.1515
+  recall: 0.1515
+  support: 22
+
+# VARIA 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:07,  7.59s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9679
+  precision: 0.8876
+  recall: 0.8858
+  support: 1341
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4643
+  precision: 0.3243
+  recall: 0.3243
+  support: 28
+
+# Global
+# Global 16 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:11, 11.69s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9512
+  precision: 0.7834
+  recall: 0.78
+  support: 2603
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.08
+  precision: 0.0476
+  recall: 0.0357
+  support: 25
+
+# Global 17 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:14, 14.13s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.968
+  precision: 0.8487
+  recall: 0.8474
+  support: 2629
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4231
+  precision: 0.2647
+  recall: 0.2647
+  support: 26
+
+# Global 18 orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:13, 13.70s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9759
+  precision: 0.8898
+  recall: 0.889
+  support: 2785
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.2917
+  precision: 0.129
+  recall: 0.1129
+  support: 24
+
+# Global 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:13, 13.98s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9766
+  precision: 0.8904
+  recall: 0.8875
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4571
+  precision: 0.2727
+  recall: 0.25
+  support: 35
+
+# Global 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:14, 14.48s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9715
+  precision: 0.8868
+  recall: 0.8851
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5349
+  precision: 0.3889
+  recall: 0.3889
+  support: 43
+
+# Total
+# Total théâtre orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:39, 39.57s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9664
+  precision: 0.8248
+  recall: 0.8172
+  support: 6701
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4648
+  precision: 0.3059
+  recall: 0.2824
+  support: 71
+
+# Total varia orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:33, 33.36s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9713
+  precision: 0.8545
+  recall: 0.8524
+  support: 6796
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3171
+  precision: 0.1833
+  recall: 0.1833
+  support: 82
+
+# Total orig
+--- Not using trainset to evaluate known/unknown tokens
+1it [01:16, 76.08s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9689
+  precision: 0.8198
+  recall: 0.8128
+  support: 13497
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3856
+  precision: 0.2341
+  recall: 0.2244
+  support: 153
+
+# THEATRE
+## THEATRE 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.51s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9665
+  precision: 0.8558
+  recall: 0.8477
+  support: 1252
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5333
+  precision: 0.2632
+  recall: 0.2632
+  support: 15
+
+## THEATRE 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.66s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9742
+  precision: 0.9091
+  recall: 0.9039
+  support: 1319
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4286
+  precision: 0.2778
+  recall: 0.25
+  support: 14
+
+## THEATRE 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.45s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9769
+  precision: 0.8976
+  recall: 0.8966
+  support: 1344
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5
+  precision: 0.2667
+  recall: 0.2667
+  support: 14
+
+## THEATRE 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.75s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.982
+  precision: 0.9229
+  recall: 0.9182
+  support: 1387
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.6923
+  precision: 0.6364
+  recall: 0.5455
+  support: 13
+
+## THEATRE 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.00s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.975
+  precision: 0.9062
+  recall: 0.9043
+  support: 1399
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.6667
+  precision: 0.5294
+  recall: 0.5294
+  support: 15
+
+# Varia
+# VARIA 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.88s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9748
+  precision: 0.8943
+  recall: 0.8959
+  support: 1351
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.2
+  precision: 0.125
+  recall: 0.125
+  support: 10
+
+# VARIA 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:05,  5.42s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9824
+  precision: 0.9303
+  recall: 0.9265
+  support: 1310
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.6667
+  precision: 0.5385
+  recall: 0.5385
+  support: 12
+
+# VARIA 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.84s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9827
+  precision: 0.9326
+  recall: 0.9322
+  support: 1441
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.0
+  precision: 0.0
+  recall: 0.0
+  support: 10
+
+# VARIA 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.24s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9712
+  precision: 0.8857
+  recall: 0.8884
+  support: 1353
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3182
+  precision: 0.1515
+  recall: 0.1515
+  support: 22
+
+# VARIA 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:06,  6.40s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9679
+  precision: 0.8876
+  recall: 0.8858
+  support: 1341
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4643
+  precision: 0.3243
+  recall: 0.3243
+  support: 28
+
+# Global
+# Global 16 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:11, 11.00s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9708
+  precision: 0.8602
+  recall: 0.8567
+  support: 2603
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4
+  precision: 0.2
+  recall: 0.2
+  support: 25
+
+# Global 17 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:11, 11.16s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9783
+  precision: 0.9099
+  recall: 0.9046
+  support: 2629
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5385
+  precision: 0.3871
+  recall: 0.371
+  support: 26
+
+# Global 18 norm
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:12, 12.57s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9799
+  precision: 0.906
+  recall: 0.9058
+  support: 2785
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.2917
+  precision: 0.129
+  recall: 0.129
+  support: 24
+
+# Global 19
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:12, 12.67s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9766
+  precision: 0.8904
+  recall: 0.8875
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4571
+  precision: 0.2727
+  recall: 0.25
+  support: 35
+
+# Global 20
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:13, 13.38s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9715
+  precision: 0.8868
+  recall: 0.8851
+  support: 2740
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5349
+  precision: 0.3889
+  recall: 0.3889
+  support: 43
+
+# Total
+# Total théâtre normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:31, 31.46s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9751
+  precision: 0.8642
+  recall: 0.8593
+  support: 6701
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.5634
+  precision: 0.375
+  recall: 0.3562
+  support: 71
+
+# Total varia normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [00:31, 31.76s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9759
+  precision: 0.8796
+  recall: 0.8772
+  support: 6796
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.3659
+  precision: 0.2261
+  recall: 0.2261
+  support: 82
+
+# Total normalised
+--- Not using trainset to evaluate known/unknown tokens
+1it [01:09, 69.14s/it]
+
+::: Evaluation report for task: lemma :::
+
+all:
+  accuracy: 0.9755
+  precision: 0.8562
+  recall: 0.8511
+  support: 13497
+known-tokens:
+  accuracy: .nan
+  precision: .nan
+  recall: .nan
+  support: 0
+unknown-targets:
+  accuracy: 0.4575
+  precision: 0.2872
+  recall: 0.2795
+  support: 153
+
+(env) ➜  pie git:(master) ✗
