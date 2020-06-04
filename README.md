@@ -37,12 +37,15 @@ We provide:
   |-presto_max
   |-presto_gold
 |-Data_outOfDomain
-  |-theatre
-  |-theatre_orig
-  |-varia
-  |-varia_orig
+  |-Data_outOfDomain_normalised
+    |-theatre_normalised
+    |-varia_normalised
+  |-Data_outOfDomain_original
+    |-theatre_original
+    |-varia_original
 |-Models
   |-lemma.tar
+  |-pos.tar
 
 ```
 
