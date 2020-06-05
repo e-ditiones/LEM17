@@ -87,7 +87,7 @@ de	de	PRE	MORPH=empty
 n'	ne	ADVneg	MORPH=empty
 y	y	PROadv	MORPH=empty
 comprendre	comprendre	VERinf	MORPH=empty
-rien	rien	PROind	NOMB.=s|GENRE=n
+rien	rien	PROind	NOMB.=s|GENRE=x
 .	.	PONfrt	MORPH=empty
 Quelques	quelque	DETind	NOMB.=p|GENRE=m
 puissants	puissant	ADJqua	NOMB.=p|GENRE=m
@@ -2600,7 +2600,7 @@ doit	devoir	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 toute	tout	DETind	NOMB.=s|GENRE=f
 la	le	DETdef	NOMB.=s|GENRE=f
 terre	terre	NOMcom	NOMB.=s|GENRE=f
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 belles	beau	ADJqua	NOMB.=p|GENRE=f
 actions	action	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
@@ -4553,7 +4553,7 @@ Que	que	CONsub	MORPH=empty
 vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 en	en	PROadv	MORPH=empty
 ayez	avoir	VERcjg	MODE=sub|TEMPS=pst|PERS.=2|NOMB.=p
-tant	tant	PROind	MORPH=empty
+tant	tant	ADVgen	MORPH=empty
 ,	,	PONfbl	MORPH=empty
 il	il	PROper	PERS.=3|NOMB.=s|GENRE=m|CAS=n
 n'	ne	ADVneg	MORPH=empty
@@ -9361,7 +9361,7 @@ s'	se	PROper	PERS.=3|NOMB.=x|GENRE=x|CAS=x
 en	en	PROadv	MORPH=empty
 étant	être	VERppa	NOMB.=x|GENRE=x
 saisis	saisir	VERppe	NOMB.=p|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 premières	premier	ADJord	NOMB.=p|GENRE=f
 approches	approche	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
@@ -11391,7 +11391,7 @@ Et	et	CONcoo	MORPH=empty
 ne	ne	ADVneg	MORPH=empty
 les	il	PROper	PERS.=3|NOMB.=p|GENRE=x|CAS=r
 range	ranger	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 lois	loi	NOMcom	NOMB.=p|GENRE=f
 que	que	PROrel	MORPH=empty
 je	je	PROper	PERS.=1|NOMB.=s|GENRE=x|CAS=n
@@ -11451,7 +11451,7 @@ Madame	madame	NOMcom	NOMB.=s|GENRE=f
 à	à	PRE	MORPH=empty
 se	se	PROper	PERS.=3|NOMB.=x|GENRE=x|CAS=x
 régler	régler	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=x
 vôtres	vôtre	PROpos	PERS.=2|NOMB.=p|GENRE=x
 ;	;	PONfbl	MORPH=empty
 Et	et	CONcoo	MORPH=empty
@@ -11506,7 +11506,7 @@ d'	de	PRE	MORPH=empty
 un	un	DETndf	NOMB.=s|GENRE=m
 écrit	écrit	NOMcom	NOMB.=s|GENRE=m
 laisse	laisser	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 mains	main	NOMcom	NOMB.=p|GENRE=f
 d'	de	PRE	MORPH=empty
 un	un	DETndf	NOMB.=s|GENRE=m
@@ -11718,7 +11718,7 @@ l'	le	DETdef	NOMB.=s|GENRE=x
 Pour	pour	PRE	MORPH=empty
 l'	il	PROper	PERS.=3|NOMB.=s|GENRE=x|CAS=r
 ôter	ôter	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 fureurs	fureur	NOMcom	NOMB.=p|GENRE=f
 du	de_le	PRE.DETdef	NOMB.=s|GENRE=m
 traître	traître	NOMcom	NOMB.=s|GENRE=m
@@ -12443,7 +12443,7 @@ ne	ne	ADVneg	MORPH=empty
 songez	songer	VERcjg	MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p
 -vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 point	point	ADVneg	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 langues	langue	NOMcom	NOMB.=p|GENRE=f
 de	de	PRE	MORPH=empty
 vipère	vipère	NOMcom	NOMB.=s|GENRE=f
@@ -13120,7 +13120,7 @@ ne	ne	ADVneg	MORPH=empty
 prends	prendre	VERcjg	MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s
 plus	plus	ADVgen	MORPH=empty
 plaisir	plaisir	NOMcom	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 choses	chose	NOMcom	NOMB.=p|GENRE=f
 de	de	PRE	MORPH=empty
 la	le	DETdef	NOMB.=s|GENRE=f
@@ -16055,7 +16055,7 @@ tous	tout	DETind	NOMB.=p|GENRE=m
 les	le	DETdef	NOMB.=p|GENRE=m
 matins	matin	NOMcom	NOMB.=p|GENRE=m
 rêver	rêver	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 Tuileries	Tuileries	NOMpro	NOMB.=p|GENRE=f
 Ne	ne	ADVneg	MORPH=empty
 sauriez	savoir	VERcjg	MODE=con|PERS.=2|NOMB.=p
@@ -16349,7 +16349,7 @@ le	il	PROper	PERS.=3|NOMB.=s|GENRE=m|CAS=r
 vois	voir	VERcjg	MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s
 cependant	cependant	ADVgen	MORPH=empty
 toujours	toujours	ADVgen	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 Tuileries	Tuileries	NOMpro	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
 Et	et	CONcoo	MORPH=empty
@@ -19538,7 +19538,7 @@ ne	ne	ADVneg	MORPH=empty
 me	je	PROper	PERS.=1|NOMB.=s|GENRE=x|CAS=r
 trompe	tromper	VERcjg	MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s
 guère	guère	ADVgen	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 choses	chose	NOMcom	NOMB.=p|GENRE=f
 que	que	PROrel	MORPH=empty
 je	je	PROper	PERS.=1|NOMB.=s|GENRE=x|CAS=n
@@ -24238,7 +24238,7 @@ la	le	DETdef	NOMB.=s|GENRE=f
 gloire	gloire	NOMcom	NOMB.=s|GENRE=f
 est	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 due	devoir	VERppe	NOMB.=s|GENRE=f
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 vicieuses	vicieux	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
 Et	et	CONcoo	MORPH=empty
@@ -25384,7 +25384,7 @@ ce	ce	DETdem	NOMB.=s|GENRE=m
 point	point	NOMcom	NOMB.=s|GENRE=m
 ,	,	PONfbl	MORPH=empty
 Qu'	que	CONsub	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 forces	force	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
 le	le	DETdef	NOMB.=s|GENRE=m
@@ -25980,7 +25980,7 @@ peur	peur	NOMcom	NOMB.=s|GENRE=f
 le	le	DETdef	NOMB.=s|GENRE=m
 foudre	foudre	NOMcom	NOMB.=s|GENRE=m
 ,	,	PONfbl	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 mains	main	NOMcom	NOMB.=p|GENRE=f
 même	même	ADVgen	MORPH=empty
 de	de	PRE	MORPH=empty
@@ -31647,7 +31647,7 @@ de	de	PRE	MORPH=empty
 l'	le	DETdef	NOMB.=s|GENRE=x
 esprit	esprit	NOMcom	NOMB.=s|GENRE=m
 ;	;	PONfbl	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 vieilles	vieux	NOMcom	NOMB.=p|GENRE=f
 de	de	PRE	MORPH=empty
 l'	le	DETdef	NOMB.=s|GENRE=x
@@ -34012,7 +34012,7 @@ Est	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 tombé	tomber	VERppe	NOMB.=s|GENRE=m
 par	par	PRE	MORPH=empty
 malheur	malheur	NOMcom	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 mains	main	NOMcom	NOMB.=p|GENRE=f
 des	de_le	PRE.DETdef	NOMB.=p|GENRE=x
 ennemis	ennemi	NOMcom	NOMB.=p|GENRE=m
@@ -34249,7 +34249,7 @@ beau	beau	ADJqua	NOMB.=s|GENRE=m
 soin	soin	NOMcom	NOMB.=s|GENRE=m
 qui	qui	PROrel	MORPH=empty
 vienne	venir	VERcjg	MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 belles	beau	ADJqua	NOMB.=p|GENRE=f
 âmes	âme	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
@@ -34599,7 +34599,7 @@ eussiez	avoir	VERcjg	MODE=sub|TEMPS=ipf|PERS.=2|NOMB.=p
 toujours	toujours	ADVgen	MORPH=empty
 un	un	DETndf	NOMB.=s|GENRE=m
 portefeuille	portefeuille	NOMcom	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 mains	main	NOMcom	NOMB.=p|GENRE=f
 .	.	PONfrt	MORPH=empty
 À	à	PRE	MORPH=empty
@@ -35661,7 +35661,7 @@ lieux	lieu	NOMcom	NOMB.=p|GENRE=m
 au	à_le	PRE.DETdef	NOMB.=s|GENRE=m
 bal	bal	NOMcom	NOMB.=s|GENRE=m
 ,	,	PONfbl	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 promenades	promenade	NOMcom	NOMB.=p|GENRE=f
 ;	;	PONfbl	MORPH=empty
 Vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
@@ -37316,7 +37316,7 @@ doit	devoir	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 donner	donner	VERinf	MORPH=empty
 le	le	DETdef	NOMB.=s|GENRE=m
 vice	vice	NOMcom	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 âmes	âme	NOMcom	NOMB.=p|GENRE=f
 vertueuses	vertueux	ADJqua	NOMB.=p|GENRE=f
 .	.	PONfrt	MORPH=empty
@@ -40486,7 +40486,7 @@ Ont	avoir	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p
 pris	prendre	VERppe	NOMB.=s|GENRE=m
 le	le	DETdef	NOMB.=s|GENRE=m
 frein	frein	NOMcom	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 dents	dent	NOMcom	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
 et	et	CONcoo	MORPH=empty
@@ -45990,7 +45990,7 @@ ne	ne	ADVneg	MORPH=empty
 sont	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p
 bons	bon	ADJqua	NOMB.=p|GENRE=m
 qu'	que	CONsub	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 âmes	âme	NOMcom	NOMB.=p|GENRE=f
 insensibles	insensible	ADJqua	NOMB.=p|GENRE=f
 .	.	PONfrt	MORPH=empty
@@ -50336,7 +50336,7 @@ personnage	personnage	NOMcom	NOMB.=s|GENRE=m
 De	de	PRE	MORPH=empty
 vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 claquemurer	claquemurer	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 choses	chose	NOMcom	NOMB.=p|GENRE=f
 du	de_le	PRE.DETdef	NOMB.=s|GENRE=m
 ménage	ménage	NOMcom	NOMB.=s|GENRE=m
@@ -50368,7 +50368,7 @@ aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
 gens	gens	NOMcom	NOMB.=p|GENRE=f
 grossiers	grossier	ADJqua	NOMB.=p|GENRE=m
 ,	,	PONfbl	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 personnes	personne	NOMcom	NOMB.=p|GENRE=f
 vulgaires	vulgaire	ADJqua	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
@@ -50452,7 +50452,7 @@ sa	son	DETpos	PERS.=3|NOMB.=s|GENRE=f
 fille	fille	NOMcom	NOMB.=s|GENRE=f
 ,	,	PONfbl	MORPH=empty
 Aspirez	aspirer	VERcjg	MODE=imp|PERS.=2|NOMB.=p
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 clartés	clarté	NOMcom	NOMB.=p|GENRE=f
 qui	qui	PROrel	MORPH=empty
 sont	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p
@@ -50464,7 +50464,7 @@ Et	et	CONcoo	MORPH=empty
 vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 rendez	rendre	VERcjg	MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p
 sensible	sensible	ADJqua	NOMB.=s|GENRE=x
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 charmantes	charmer	VERppa	NOMB.=p|GENRE=f
 douceurs	douceur	NOMcom	NOMB.=p|GENRE=f
 Que	que	CONsub	MORPH=empty
@@ -50481,7 +50481,7 @@ coeurs	cœur	NOMcom	NOMB.=p|GENRE=m
 Loin	loin	ADVgen	MORPH=empty
 d'	de	PRE	MORPH=empty
 être	être	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 lois	loi	NOMcom	NOMB.=p|GENRE=f
 d'	de	PRE	MORPH=empty
 un	un	DETndf	NOMB.=s|GENRE=m
@@ -50530,7 +50530,7 @@ Dont	dont	PROrel	NOMB.=x|GENRE=x|CAS=i
 l'	le	DETdef	NOMB.=s|GENRE=x
 appétit	appétit	NOMcom	NOMB.=s|GENRE=m
 grossier	grossier	ADJqua	NOMB.=s|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 bêtes	bête	NOMcom	NOMB.=p|GENRE=f
 nous	nous	PROper	PERS.=1|NOMB.=p|GENRE=x|CAS=x
 ravale	ravaler	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
@@ -50620,7 +50620,7 @@ vôtre	vôtre	PROpos	PERS.=2|NOMB.=s|GENRE=m
 est	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 né	naître	VERppe	NOMB.=s|GENRE=m
 propre	propre	ADJqua	NOMB.=s|GENRE=x
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 élévations	élévation	NOMcom	NOMB.=p|GENRE=f
 Où	où	PROrel	NOMB.=x|GENRE=x|CAS=i
 montent	monter	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p
@@ -50750,7 +50750,7 @@ plaisirs	plaisir	NOMcom	NOMB.=p|GENRE=m
 ;	;	PONfbl	MORPH=empty
 Vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 ,	,	PONfbl	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 productions	production	NOMcom	NOMB.=p|GENRE=f
 d'	de	PRE	MORPH=empty
 esprit	esprit	NOMcom	NOMB.=s|GENRE=m
@@ -51025,7 +51025,7 @@ vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 ne	ne	ADVneg	MORPH=empty
 tombez	tomber	VERcjg	MODE=imp|PERS.=2|NOMB.=p
 point	point	ADVneg	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 bassesses	bassesse	NOMcom	NOMB.=p|GENRE=f
 humaines	humain	ADJqua	NOMB.=p|GENRE=f
 ;	;	PONfbl	MORPH=empty
@@ -51079,7 +51079,7 @@ Ne	ne	ADVneg	MORPH=empty
 fait	faire	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 pas	pas	ADVneg	MORPH=empty
 renoncer	renoncer	VERinf	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 douceurs	douceur	NOMcom	NOMB.=p|GENRE=f
 des	de_le	PRE.DETdef	NOMB.=p|GENRE=x
 encens	encens	NOMcom	NOMB.=p|GENRE=m
@@ -51786,7 +51786,7 @@ vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
 Je	je	PROper	PERS.=1|NOMB.=s|GENRE=x|CAS=n
 rends	rendre	VERcjg	MODE=ind|TEMPS=pst|PERS.=1|NOMB.=s
 grâce	grâce	NOMcom	NOMB.=s|GENRE=f
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 bontés	bonté	NOMcom	NOMB.=p|GENRE=f
 que	que	PROrel	MORPH=empty
 vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
@@ -53474,7 +53474,7 @@ est	être	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 Annecy	Annecy	NOMpro	NOMB.=s|GENRE=x
 .	.	PONfrt	MORPH=empty
 Haye	hé	INJ	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=x
 autres	autre	PROind	NOMB.=p|GENRE=x
 :	:	PONfbl	MORPH=empty
 et	et	CONcoo	MORPH=empty
@@ -58987,7 +58987,7 @@ Taisez	taire	VERcjg	MODE=imp|PERS.=2|NOMB.=p
 ,	,	PONfbl	MORPH=empty
 et	et	CONcoo	MORPH=empty
 songez	songer	VERcjg	MODE=imp|PERS.=2|NOMB.=p
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 choses	chose	NOMcom	NOMB.=p|GENRE=f
 que	que	PROrel	MORPH=empty
 vous	vous	PROper	PERS.=2|NOMB.=p|GENRE=x|CAS=x
@@ -59841,7 +59841,7 @@ rêvez	rêver	VERcjg	MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p
 ,	,	PONfbl	MORPH=empty
 et	et	CONcoo	MORPH=empty
 bayez	bayer	VERcjg	MODE=ind|TEMPS=pst|PERS.=2|NOMB.=p
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 corneilles	corneille	NOMcom	NOMB.=p|GENRE=f
 .	.	PONfrt	MORPH=empty
 Jour	jour	NOMcom	NOMB.=s|GENRE=m
@@ -60557,7 +60557,7 @@ son	son	DETpos	PERS.=3|NOMB.=s|GENRE=m
 époux	époux	NOMcom	NOMB.=s|GENRE=m
 ,	,	PONfbl	MORPH=empty
 Commande	commander	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 troupes	troupe	NOMcom	NOMB.=p|GENRE=f
 thébaines	thébaine	ADJqua	NOMB.=p|GENRE=f
 ,	,	PONfbl	MORPH=empty
@@ -62888,7 +62888,7 @@ opposer	opposer	VERinf	MORPH=empty
 d'	de	PRE	MORPH=empty
 autres	autre	DETind	NOMB.=p|GENRE=x
 bras	bras	NOMcom	NOMB.=p|GENRE=m
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 forces	force	NOMcom	NOMB.=p|GENRE=f
 de	de	PRE	MORPH=empty
 Sicile	Sicile	NOMpro	NOMB.=s|GENRE=f
@@ -64412,7 +64412,7 @@ que	que	PROrel	MORPH=empty
 l'	le	DETdef	NOMB.=s|GENRE=x
 on	on	PROind	PERS.=3|NOMB.=s|GENRE=x|CAS=n
 sème	semer	VERcjg	MODE=sub|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 dames	dame	NOMcom	NOMB.=p|GENRE=f
 des	un	DETndf	NOMB.=p|GENRE=x
 appas	appât	NOMcom	NOMB.=p|GENRE=m
@@ -71003,7 +71003,7 @@ prépare	préparer	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
 Un	un	DETndf	NOMB.=s|GENRE=m
 de	de	PRE	MORPH=empty
 ces	ce	DETdem	NOMB.=p|GENRE=x
-derniers	dernier	ADJord	NOMB.=p|GENRE=m
+derniers	dernier	ADJqua	NOMB.=p|GENRE=m
 soirs	soir	NOMcom	NOMB.=p|GENRE=m
 étant	être	VERppa	NOMB.=x|GENRE=x
 sortie	sortir	VERppe	NOMB.=s|GENRE=f
@@ -71959,7 +71959,7 @@ si	si	ADVgen	MORPH=empty
 complaisants	complaire	VERppa	NOMB.=p|GENRE=m
 ,	,	PONfbl	MORPH=empty
 Qu'	que	CONsub	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 Indes	Indes	NOMpro	NOMB.=p|GENRE=f
 pour	pour	PRE	MORPH=empty
 lui	il	PROper	PERS.=3|NOMB.=s|GENRE=x|CAS=i
@@ -72600,7 +72600,7 @@ et	et	CONcoo	MORPH=empty
 ,	,	PONfbl	MORPH=empty
 bien	bien	ADVgen	MORPH=empty
 qu'	que	CONsub	MORPH=empty
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 occurrences	occurrence	NOMcom	NOMB.=p|GENRE=f
 Je	je	PROper	PERS.=1|NOMB.=s|GENRE=x|CAS=n
 puisse	pouvoir	VERcjg	MODE=sub|TEMPS=pst|PERS.=1|NOMB.=s
@@ -74549,7 +74549,7 @@ qu'	que	CONsub	MORPH=empty
 on	on	PROind	PERS.=3|NOMB.=s|GENRE=x|CAS=n
 te	tu	PROper	PERS.=2|NOMB.=s|GENRE=x|CAS=r
 souhaite	souhaiter	VERcjg	MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s
-aux	à_le	PRE.DETdef	NOMB.=p|GENRE=m
+aux	à_le	PRE.DETdef	NOMB.=p|GENRE=f
 plus	plus	ADVgen	MORPH=empty
 riches	riche	ADJqua	NOMB.=p|GENRE=f
 maisons	maison	NOMcom	NOMB.=p|GENRE=f
