@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="protogeneia/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<config>
+    <default-header>
+        <header type="explicit">
+            <key>form</key>
+            <key>lemma</key>
+        </header>
+    </default-header>
+    <output column_marker="TAB">
+        <header name="default"/>
+    </output>
+    <corpora>
+        <corpus path="lemmat_full.tsv" column_marker="TAB">
+            <splitter name="regexp" matchPattern="[?\.!]" source="lemma"/>
+            <header type="default"/>
+        </corpus>
+    </corpora>
+</config>
