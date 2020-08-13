@@ -1,9 +1,11 @@
 !
 (
 )
+*
 ,
 -
 .
+/
 :
 ;
 ?
@@ -6131,7 +6133,7 @@ arrière-boutique
 arrière-bras
 arrière-cabinet
 arrière-chambre
-arrière-choeur
+arrière-chœur
 arrière-corps
 arrière-cour
 arrière-cousin
@@ -7586,7 +7588,7 @@ avaniser
 avant
 avant-bouche
 avant-centre
-avant-choeur
+avant-chœur
 avant-corps
 avant-cour
 avant-coureur
@@ -15154,6 +15156,7 @@ chignole
 chignolle
 chignon
 chiliade
+chilien
 chilifier
 chiligone
 chiliogone
@@ -15329,7 +15332,6 @@ chocolatier
 chocolatière
 chocolaté
 chocotte
-choeur
 choir
 choisi
 choisir
@@ -15735,6 +15737,7 @@ chômer
 chômeur
 chômeuse
 chômé
+chœur
 ci
 ci-après
 ci-avant
@@ -21060,7 +21063,7 @@ demi-botte
 demi-bouteille
 demi-ceint
 demi-cercle
-demi-choeur
+demi-chœur
 demi-circulaire
 demi-clé
 demi-colonne
@@ -28605,6 +28608,7 @@ filé
 filée
 fimicole
 fin
+finablement
 finage
 final
 finale
@@ -29616,6 +29620,7 @@ frappeur
 frappoir
 frappé
 frappée
+frarécheur
 fraser
 frasque
 frater
@@ -29954,6 +29959,7 @@ frustrer
 frustré
 frutescent
 fruticole
+frèrage
 frère
 frégatage
 frégate
@@ -30369,6 +30375,7 @@ gabarre
 gabarrier
 gabbro
 gabegie
+gabelage
 gabelle
 gabelou
 gaber
@@ -42872,9 +42879,6 @@ mannité
 mannose
 manocage
 manodétendeur
-manoeuvrable
-manoeuvrier
-manoeuvrière
 manoir
 manola
 manomètre
@@ -42932,9 +42936,12 @@ manège
 manéage
 manécanterie
 manéger
+manœuvrable
 manœuvre
 manœuvrer
 manœuvreur
+manœuvrier
+manœuvrière
 maori
 maorie
 maous
@@ -44394,7 +44401,7 @@ mirailler
 miraud
 mirbane
 mire
-mire-oeufs
+mire-œufs
 mirepoix
 mirer
 mirette
@@ -49249,7 +49256,6 @@ oestrogénique
 oestrogénothérapie
 oestrone
 oestrus
-oeuf
 oeufrier
 oeuvé
 off
@@ -51604,6 +51610,7 @@ paraître
 parbleu
 parc
 parcage
+parce
 parce_que
 parcellaire
 parcellarité
@@ -78524,6 +78531,7 @@ zézaiement
 zézayer
 zézette
 zêta
+§
 à
 à+demi
 à-bas
@@ -80507,6 +80515,7 @@ zêta
 œillère
 œillé
 œils
+œuf
 œuvre
 œuvre-testament
 œuvrer

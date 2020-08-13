@@ -6986,7 +6986,7 @@ arrière-boutique
 arrière-bras
 arrière-cabinet
 arrière-chambre
-arrière-choeur
+arrière-chœur
 arrière-corps
 arrière-cour
 arrière-cousin
@@ -8554,7 +8554,7 @@ avant
 avant
 avant-bouche
 avant-centre
-avant-choeur
+avant-chœur
 avant-corps
 avant-cour
 avant-coureur
@@ -17195,7 +17195,7 @@ chocolatier
 chocolatière
 chocotte
 choéphore
-choeur
+chœur
 choir
 choisi
 choisir
@@ -24275,7 +24275,7 @@ demi-botte
 demi-bouteille
 demi-ceint
 demi-cercle
-demi-choeur
+demi-chœur
 demi-circulaire
 demi-clé
 demi-colonne
@@ -34313,7 +34313,6 @@ fréquence
 fréquencemètre
 fréquent
 fréquentable
-fréquentatif
 fréquentatif
 fréquentation
 fréquenté
@@ -48226,13 +48225,13 @@ mannite
 mannose
 manocage
 manodétendeur
-manoeuvrable
+manœuvrable
 manœuvre
 manœuvrer
 manœuvreur
-manoeuvrier
-manoeuvrier
-manoeuvrière
+manœuvrier
+manœuvrier
+manœuvrière
 manoir
 manola
 manomètre
@@ -50829,7 +50828,7 @@ miraud
 mirbane
 miré
 mire
-mire-oeufs
+mire-œufs
 mirepoix
 mirer
 mirette
@@ -55054,7 +55053,7 @@ oestrogénique
 oestrogénothérapie
 oestrone
 oestrus
-oeuf
+œuf
 oeufrier
 oeuvé
 œuvre
@@ -82452,7 +82451,6 @@ tubulure
 tudesque
 tudieu
 tué
-tué
 tue-mouche
 tue-mouches
 tue-tête
@@ -86202,12 +86200,15 @@ zymotechnie
 zymotique
 zythum
 zzz
+*
 )
 (
 -
 –
 .
+§
 ,
+/
 …
 :
 ;
@@ -86417,3 +86418,9 @@ cliner
 exerciter
 arrérage
 discernateur
+parce
+finablement
+frèrage
+frarécheur
+gabelage
+chilien
