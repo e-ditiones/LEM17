@@ -9,11 +9,12 @@ Sisyphe portant _CornMol_ (Titian, Prado Museum, Madrid, Spain, Source: [Wikiped
 ## Data
 
 We provide:
-1. [Three authority lists](https://github.com/e-ditiones/LEM17/tree/master/Authority_list), two deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
+1. [Several authority lists](https://github.com/e-ditiones/LEM17/tree/master/Authority_list), two deriving from [LGeRM](https://www.ortolang.fr/market/lexicons/lgerm).
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * One list contains all the foreign words (`foreign`) with the latest added at the end
   * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
+  * On top of these three files, there is a `numbers` files containing latin and arabic numbers and an `alphabet` with latin letters.
 2. [Training data](https://github.com/e-ditiones/LEM17/tree/master/Data):
   * _CornMol_ is a gold corpus to be published
   * _FranText_ is a corpus taken from the open data of [FranText](https://www.frantext.fr) and aligned on our lemmatisation standards.
@@ -44,21 +45,25 @@ We provide:
     |-theatre_original
     |-varia_original
 |-Models
-  |-lemma.tar
-  |-pos.tar
-
+  |-train_1
+  |-train_2
+    |-Models
+      |-lemma.tar
+      |-pos.tar
 ```
 
 ## Use the lemmatiser
-To use the model, you need to:
-1. Install _Pie-extended_ `pip install pie-extended`
-2. Download de `fr` model: `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended download fr`
-3. Use the `lemma.tar` with `PIE_EXTENDED_DOWNLOADS=~/MesModelsPieExtended pie-extended tag fr $FILE$`.
+To use the model,
+1. Create a `virtualenv`
+2. Install _Pie-extended_ `pip install pie-extended`
+3. Download the _freem_ model: `pie-extended download `
+4. Use the `freem` model: `pie-extended tag freem your_file.txt`
+
+Do note that _pie-extended_ include a tokeniser dedicated to (early-)modern French.
 
 ## Warnings
 
 The morphology is provided but has _not_ been carefully proofread.
-
 
 ## Licences
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Our work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
@@ -66,12 +71,12 @@ The morphology is provided but has _not_ been carefully proofread.
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />_Presto_ and _LGeRM_ data are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
 
 ## Contribute
-If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unine.ch.
+If you want to contribute, you can do so by cloning the repository and sending us a pull request, or by sending an email at simon.gabay[at]unige.ch.
 
 ## Cite this repository
 Simon Gabay, Thibault Clérice, Matthias Gille-Levenson, Jean-Baptiste Camps, Jean-Baptiste Tanguy, _LEM17: data and models for modern French (16-18th c.)_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/e-ditiones/LEM17](https://github.com/e-ditiones/LEM17).
 
-Please keep me posted if you use this data! simon.gabay[at]unine.ch
+Please keep me posted if you use this data! simon.gabay[at]unige.ch
 
 ## Contact
-simon.gabay[at]unine.ch
+simon.gabay[at]unige.ch
