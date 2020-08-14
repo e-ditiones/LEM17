@@ -13,7 +13,7 @@ We provide:
   * One list contains only propre nouns (`proper`) with the latest added at the end
   * One list contains all the other lemmas (`authority`) with the latest added at the end
   * One list contains all the foreign words (`foreign`) with the latest added at the end
-  * Each file has a `_processed` with all the entries in the alphabetical order, after controlling that there is not twice the same entry
+  * Each file has a `_processed` version with all the entries in the alphabetical order, after controlling that there is not twice the same entry
   * On top of these three files, `numbers` contains latin and arabic numbers and `alphabet` contains single latin letters.
 2. [Training data](https://github.com/e-ditiones/LEM17/tree/master/Data):
   * _CornMol_ is a gold corpus to be published
