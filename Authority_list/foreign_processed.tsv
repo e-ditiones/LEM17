@@ -1,4 +1,5 @@
 @dialect
+@greek
 @german
 @hebrew
 @italian
@@ -11,5 +12,5 @@ erratum
 habeas
 nota
 nunc
-octavo
 scriptum
+octavo
