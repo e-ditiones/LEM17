@@ -59,7 +59,7 @@ To use the model,
 3. Download the _freem_ model: `pie-extended download `
 4. Use the `freem` model: `pie-extended tag freem your_file.txt`
 
-Do note that _pie-extended_ include a tokeniser dedicated to (early-)modern French.
+Do note that _pie-extended_ includes a tokeniser dedicated to (early-)modern French.
 
 ## Warnings
 
