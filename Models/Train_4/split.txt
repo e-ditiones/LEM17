@@ -1,0 +1,16 @@
+(env) ➜  Train_4 protogenie build lemmat_full.xml -d 0.01 -e 0.05;
+0.8 0.05 0.01
+=============
+Processing...
+/Users/gabaysimon/Documents/DH/Protogenie/LEM17-4/Train_4/lemmat_full.tsv has been transformed
+  239181 tokens in test dataset
+  48918 tokens in dev dataset
+  4425977 tokens in train dataset
+(env) ➜  Train_4 protogenie build pos_full.xml -d 0.03 -e 0.1;
+0.8 0.1 0.03
+=============
+Processing...
+/Users/gabaysimon/Documents/DH/Protogenie/LEM17-4/Train_4/pos_full.tsv has been transformed
+  14963 tokens in test dataset
+  4921 tokens in dev dataset
+  132717 tokens in train dataset
