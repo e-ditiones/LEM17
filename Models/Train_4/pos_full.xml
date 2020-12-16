@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="protogeneia/schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <config>
     <default-header>
         <header type="explicit">
@@ -9,9 +9,27 @@
             <key>morph</key>
         </header>
     </default-header>
-    <output column_marker="TAB">
-        <header name="default"/>
+        <output column_marker="TAB">
+        <header name="order">
+            <key>form</key>
+            <key>lemma</key>
+            <key>POS</key>
+            <key>MODE</key>
+            <key>TEMPS</key>
+            <key>PERS</key>
+            <key>NOMB</key>
+            <key>GENRE</key>
+            <key>CAS</key>
+        </header>
     </output>
+    <postprocessing>
+        <disambiguation matchPattern="(MODE\=[\w-]+)\|?" new-column="MODE" source="morph" default="MODE=x" />
+        <disambiguation matchPattern="(TEMPS\=[\w-]+)\|?" new-column="TEMPS" source="morph" default="TEMPS=x" />
+        <disambiguation matchPattern="(PERS\.\=[\w-]+)\|?" new-column="PERS" source="morph" default="PERS.=x" />
+        <disambiguation matchPattern="(NOMB\.\=[\w-]+)\|?" new-column="NOMB" source="morph" default="NOMB.=x" />
+        <disambiguation matchPattern="(GENRE\=[\w-]+)\|?" new-column="GENRE" source="morph" default="GENRE=x" />
+        <disambiguation matchPattern="(CAS\=[\w-]+)\|?" new-column="CAS" source="morph" default="CAS=x" />
+    </postprocessing>
     <corpora>
         <corpus path="pos_full.tsv" column_marker="TAB">
             <splitter name="regexp" matchPattern="[?\.!]" source="lemma"/>
